@@ -1,0 +1,11 @@
+.idea
+.gitignore
+Dockerfile
+node_modules
+README.md
+*.log
+.git
+*.lock
+*-lock.json
+.vscode
+.node-version
