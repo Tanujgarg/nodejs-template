@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    "removeComments": true,
+    "strict": true,
+    "module": "commonjs",
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "target": "es6",
+    "noImplicitAny": true,
+    "moduleResolution": "node",
+    "sourceMap": false,
+    "outDir": "dist",
+    "baseUrl": ".",
+    "paths": {
+      "*": [
+        "node_modules/*"
+      ]
+    }
+  },
+  "include": [
+    "./index.ts",
+    "src/**/*"
+  ],
+  "exclude": [
+    "./src/test/"
+  ]
+}

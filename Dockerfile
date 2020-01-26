@@ -7,7 +7,7 @@ WORKDIR /app
 COPY ./package.json /app
 RUN npm install --production
 
-COPY . /app
+COPY ./dist/* /app
 
 EXPOSE 3000
 CMD node index.js
