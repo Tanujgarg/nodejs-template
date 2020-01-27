@@ -7,7 +7,7 @@
     "prebuild": "./node_modules/.bin/tslint -c tslint.json -p tsconfig.json --fix",
     "build": "./node_modules/.bin/tsc",
     "test": "jest",
-    "watch": "./node_modules/.bin/nodemon",
+    "watch": "nodemon",
     "prestart": "npm run build",
     "start": "node ./dist/index.js"
   },
